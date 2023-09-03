@@ -1,0 +1,41 @@
+@media (max-width:480px){
+  .intro{
+  font-size: 102dddddpx;
+  }
+
+
+}
+  
+@media (min-width:481px){
+  .intro{
+    font-size: 172px;
+  }
+}
+
+@media (min-width:1320px){
+  .intro{
+    padding-top: 5%;
+  }
+}
+  
+  
+  
+.intro{
+
+  font-family: 'Sacramento', 'cursive';
+
+
+}
+
+/* Create a glow effect */
+@keyframes glow {
+  0%, 100% {
+      stroke: transparent;
+      stroke-opacity: 1;
+  }
+  50% {
+      stroke: #00ff00; /* Glow color (green) */
+      stroke-opacity: 0.5;
+  }
+}
+
